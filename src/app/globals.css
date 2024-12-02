@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-gray-200;
+  }
+  body {
+    @apply border border-gray-200; /* Replace with an appropriate Tailwind border class */
+    ;
+  }
+}
+
+.hero {
+  background-image: url('/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+}
